@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Krishna</title>
+    <style>
+        .el--1 {
+            background-color: burlywood;
+        }
+         .el--2 {
+            background-color: rgb(135, 222, 136);
+        }
+         .el--3 {
+            background-color: rgb(23, 211, 199);
+            height: 150px;
+        }
+         .el--4 {
+            background-color: yellow;
+        }
+         .el--5 {
+            background-color: rgb(36, 50, 208);
+        }
+
+        .container {
+            /* STARTER */
+            font-family: sans-serif;
+            background-color: #ddd;
+            font-size: 32px;
+            margin: 40px;
+
+            /* FLEXBOX */
+            display: flex;
+            align-items: center;
+            justify-content:flex-start;
+            gap: 30px;
+        }
+       
+
+        .el--1 {
+            align-self: flex-start;
+        }
+
+        .el--4 {
+            align-self: stretch;
+            order: 1;
+        }
+        .el--5 {
+            order: -1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="el el--1">Shree Krishna</div>
+    <div class="el el--2"> is Best</div>
+    <div class="el el--3">MOtivational Speaker</div>
+    <div class="el el--4">in this</div>
+    <div class="el el--5">All Universe</div>
+    </div>
+</body>
+</html>
